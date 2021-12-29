@@ -50,9 +50,18 @@ console.log(createObj());
 
 /*******************************************************************/
 // object - tem chave e valor
+var prop01 = 'Digital Innovation One';
+
 var obj = {
-    teste: '123'
+    teste: '123',
+    prop01,
+    sum: function sum(a, b) {
+        return a + b;
+    }
 };
+
+console.log(obj.sum(2, 2));
+console.log(obj);
 
 
 
